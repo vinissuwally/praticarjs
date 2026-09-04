@@ -1,13 +1,18 @@
-var nome, sobrenome, nomeComplet;
+// let deixa a var unica ela n pode ser redeclarada
+/*var pessoa = "viny";
+var pessoa = "wally";
 
-nome = "wallyson";
-sobrenome = "oliveira";
-nomeComplet = nome +" " + sobrenome;
-idade = 18;
-pesspa = nome + " " + idade;
-alert(` seu nome é ${pesspa}`)
+alert(pessoa);*/
 
-//concatenação de palavras e misturando com num entendendo num e var com str 
+var x = 10;
+
+//escopo
+{
+var x= 2;
+}
+
+alert(x); //foi redefinido pra dois em let pois debaiixo p cima ele ler e dis que é dois PODE SER REDEFINIDO
+
 
 
 
