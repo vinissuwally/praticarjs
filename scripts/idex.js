@@ -4,15 +4,15 @@ var pessoa = "wally";
 
 alert(pessoa);*/
 
-let x = 10;
+const x = 10;
 
 //escopo
 {
-let x= 2;
+const x= 2;
 }
 
-alert(x); //ao contario do var let só funciona dentro do seu escopo alert esta no global e x no global é dez mas se alert estivesse no escopo seria dois 
-
+alert(x); 
+//const nao vai obedecer mudandos de var é um valor que não pode ser mudado é aquilos mesmo
 
 
 
