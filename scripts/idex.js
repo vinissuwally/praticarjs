@@ -1,7 +1,9 @@
-// operadores de atribuição
+// operadores de sequência 
 
 var valor1, valor2, total;
-valor1 = 5;
-valor2 = 2;
+valor1 = "viny ";
+valor2 = "tibe";
 
-valor1 += valor2;
+total = valor1 += valor2;
+
+alert(total);
