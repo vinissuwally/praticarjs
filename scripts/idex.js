@@ -4,14 +4,14 @@ var pessoa = "wally";
 
 alert(pessoa);*/
 
-var x = 10;
+let x = 10;
 
 //escopo
 {
-var x= 2;
+let x= 2;
 }
 
-alert(x); //foi redefinido pra dois em let pois debaiixo p cima ele ler e dis que é dois PODE SER REDEFINIDO
+alert(x); //ao contario do var let só funciona dentro do seu escopo alert esta no global e x no global é dez mas se alert estivesse no escopo seria dois 
 
 
 
