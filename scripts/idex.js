@@ -1,7 +1,9 @@
-// operadores de condicional
+// operadores de lógicos 
 
-var idade, eleitor;
-idade=25;
+var idade, eleitor, resultado;
+idade=71;
 eleitor= (idade < 18) ? "não eleitor":"sim eleitor";
-alert(`a resposta é ${idade} e ${eleitor}`);
+
+resultado = !(idade === 65 ); // true
+alert(resultado);
 
