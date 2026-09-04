@@ -1,9 +1,7 @@
-// operadores de comparação 
+// operadores de condicional
 
-var valor1, valor2, total;
-valor1 = 8;
-valor2 = 12; // == ver oq tem dentro das aspas já o === não
+var idade, eleitor;
+idade=25;
+eleitor= (idade < 18) ? "não eleitor":"sim eleitor";
+alert(`a resposta é ${idade} e ${eleitor}`);
 
-total = (valor1 >= 9 ); // falsa pois não é o mesmo numero  
-
-alert(total);
