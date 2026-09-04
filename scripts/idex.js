@@ -1,14 +1,14 @@
-/*var pote = "bombom";
-alert(pote);*/
+var nome, sobrenome, nomeComplet;
 
-var a,b,c; //declaração de variaveis sem colocar var em todas
+nome = "wallyson";
+sobrenome = "oliveira";
+nomeComplet = nome +" " + sobrenome;
+idade = 18;
+pesspa = nome + " " + idade;
+alert(` seu nome é ${pesspa}`)
 
-//atribuição 
-a=2;
-b=3;
-c=a+b;
+//concatenação de palavras e misturando com num entendendo num e var com str 
 
-var a =5; //reatribuindo valores
-alert(c);
+
 
 
