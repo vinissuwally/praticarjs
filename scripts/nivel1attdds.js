@@ -1,18 +1,20 @@
-/*let nome = "viny";
-alert(nome); exercicio 1 */ 
+/* (1) var idade = 65;
+alert(idade >= 18 && idade <= 60);
 
-/*let idade = "18";
-alert(idade); exercicio 2 */
 
-/*const cidade = "eloi de souza";
-alert(cidade); exercicio 3 */
+(2) var dia = 6;
+alert(dia == 6 || dia == 7);
 
-/*let produto = "banana";
-let preco = 3.50;
 
-alert(`seu produt é ${produto} e o preço é ${preco}:`)
-Exercicio 4 
+(3) var chovendo = false;
+alert(! chovendo); //reberti o false para true
+
+
+(4) var idade = 18;
+var temDocumento = false;
+alert(idade >= 18 && temDocumento == true); //&& só é usado quandos as duas situacões tem condições iguais 
+
+(5) var numero = 11;
+alert(numero > 10 && numero < 20);
 */
 
-/*var nome = "viny";
-alert(nome);*/
