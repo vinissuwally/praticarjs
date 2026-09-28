@@ -1,6 +1,12 @@
-var a = 1;
-var b = 5;
-var c = a + b; 
-alert(`${c}`)
-/* definindo variaveis e printando elas com alert, podendo 
-utlizar outras operações tambem !*/
+// Condições normias e encadeada
+
+const num = 2 + 1;
+if (num == 2){
+    alert("num é dois ")
+}else if (num == 3){
+    alert("num é 3")
+}else{
+    alert("não é 2 nem 3!")
+}
+    
+

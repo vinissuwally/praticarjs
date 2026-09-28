@@ -1,5 +1,11 @@
-var PESSOA = "viny";
-var pessoa = "duds"
-alert(`${PESSOA}`)
+//  multipla escolha 
+const car = "mercedes"
 
-// pessoa e PESSOA  são clases diferentes pelas as letras maiusculas
+switch (car){
+    case "mercedes": //caso for ferri
+        console.log("mercedes is blue")
+        break; //quebra 
+    case "ferrari":
+        console.log("ferrari is very red !")
+        break;
+}
