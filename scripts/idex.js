@@ -1,6 +1,13 @@
-var a = 1;
-var b = 5;
-var c = a + b; 
-alert(`${c}`)
-/* definindo variaveis e printando elas com alert, podendo 
-utlizar outras operações tambem !*/
+// estrutura de repetição for 
+
+// for(inicialização, condição, execução){}
+
+const numbers = []; 
+
+for(let i = 0; i < 10; i++){
+
+    numbers.push(i);
+
+}; // se i for menor que 10, i será incrementado
+
+console.log(numbers);
