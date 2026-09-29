@@ -1,8 +1,13 @@
-// whilw só possui a condição  pegado de alguma var 
-//ex:
-let i = 0;
-while(i<=10){
-    console.log(i); //enquanto i < 10 eu quero exibir o valor de i no console 
-    i++; //incrementar valor que cresce
-}
+// do while  
 
+/*let i = 10;
+do{
+    console.log(i);
+    i++;
+} while(i<10);*/
+
+let resposta ="";
+
+do {
+    resposta = window.prompt('voce é maior de idade?:');
+} while( resposta.toLocaleLowerCase() != "sim"); // tolocallowercase() pra reconhecer letras maiusculas # enquanto a resposta nao for sim repitada qaundo for pare!
