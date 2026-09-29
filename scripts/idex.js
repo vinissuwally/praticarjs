@@ -1,13 +1,29 @@
-// do while  
-
-/*let i = 10;
-do{
+/* break e continue
+for (var i = 10; i > 0; i-- ){
     console.log(i);
-    i++;
-} while(i<10);*/
+    if (i === 5 ){
+        break;
+    }
+}
 
-let resposta ="";
 
-do {
-    resposta = window.prompt('voce é maior de idade?:');
-} while( resposta.toLocaleLowerCase() != "sim"); // tolocallowercase() pra reconhecer letras maiusculas # enquanto a resposta nao for sim repitada qaundo for pare!
+console.log("deu o break");*/
+ 
+var x = 10; // x é criado aqui 
+
+while(x < 100){
+
+    x += 10;
+
+    if(x === 60){
+
+        console.log("continue!");
+
+        continue;
+
+    }
+
+    console.log('testando o continue ' + x);
+
+}
+
