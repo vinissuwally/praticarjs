@@ -1,8 +1,8 @@
-// estrutura de repetição for 
-// for(inicialização, condição, execução){}
-
-
-const fruits = ["maça", "banana", "Laranja", "uva "];
-for (let i = 0; i < fruits.length; i++){
-    console.log(fruits[i]);
+// whilw só possui a condição  pegado de alguma var 
+//ex:
+let i = 0;
+while(i<=10){
+    console.log(i); //enquanto i < 10 eu quero exibir o valor de i no console 
+    i++; //incrementar valor que cresce
 }
+
