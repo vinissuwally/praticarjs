@@ -1,5 +1,6 @@
-var PESSOA = "viny";
-var pessoa = "duds"
-alert(`${PESSOA}`)
-
-// pessoa e PESSOA  são clases diferentes pelas as letras maiusculas
+// exerc 2 
+var v = 5;
+while(v >= 1){
+    console.log(v);
+    v--;
+}

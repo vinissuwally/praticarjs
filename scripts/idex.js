@@ -1,29 +1,7 @@
-/* break e continue
-for (var i = 10; i > 0; i-- ){
-    console.log(i);
-    if (i === 5 ){
-        break;
-    }
+//exerc 1 
+var w = 1;
+
+while(w <= 5){
+    console.log(w); //mostra no console 
+    w++; // incrementa
 }
-
-
-console.log("deu o break");*/
- 
-var x = 10; // x é criado aqui 
-
-while(x < 100){
-
-    x += 10;
-
-    if(x === 60){
-
-        console.log("continue!");
-
-        continue;
-
-    }
-
-    console.log('testando o continue ' + x);
-
-}
-
