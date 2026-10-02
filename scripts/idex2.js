@@ -1,6 +1,10 @@
-// exerc 2 
-var v = 5;
-while(v >= 1){
-    console.log(v);
-    v--;
+function dizerNome(nome){
+    console.log("nome e:" + nome);
+
+
 }
+
+dizerNome("ravy");
+dizerNome("ravy");
+dizerNome("ravy");
+dizerNome("ravy");
